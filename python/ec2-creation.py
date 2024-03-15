@@ -20,8 +20,8 @@ count = 1  # Number of instances to create
 
 # Create the EC2 instance(s)
 try:
-  response = ec2_client.run_instances(
-      ImageId=image_id,
+  response = ec2_client.run_instances(      # run_instances - is a method in this 
+      ImageId=image_id, #run_instances method creates one or more EC2 instances based on the provided configuration.
       InstanceType=instance_type,
       MinCount=count,
       MaxCount=count

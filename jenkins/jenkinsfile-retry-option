@@ -1,0 +1,57 @@
+
+###################### jenkins file examples  #############################
+
+#======== Write the grrovy script for retry option in jenkins  =================
+pipeline {
+  // ... other pipeline stages and options
+
+  stages {
+    stage('Your Stage Name') {
+      steps {
+        script {
+          // Define the number of retries
+          int retryCount = 3
+          // Define the conditions under which to retry (optional)
+          def shouldRetry = { cause ->
+              return cause instanceof hudson.util.ConcurrentFailureException // Retry on ConcurrentFailureException
+          }
+
+          // Wrap your actual stage logic in a loop with retry logic
+          for (int i = 0; i < retryCount; i++) {
+            try {
+              // Your actual stage steps here
+
+              // Exit the loop on success
+              break
+            } catch (Exception e) {
+              if (i == retryCount - 1 || !shouldRetry(e)) {
+                throw e // Re-throw the exception on the last attempt or if shouldn't retry
+              } else {
+                echo "Caught exception: ${e.message}. Retrying attempt #${i + 1}..."
+                sleep 5 // Optional wait time between retries (in seconds)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Explanation:
+
+// This script defines a stage with retry logic.
+// retryCount variable sets the maximum number of attempts.
+// The optional shouldRetry closure defines conditions for retries (e.g., retry only on specific exceptions).
+// A loop iterates up to retryCount times:
+// It attempts to execute your actual stage steps within a try block.
+// On success, the loop breaks.
+// On exceptions:
+// If it's the last attempt or the condition in shouldRetry is not met, the exception is re-thrown, causing the stage to fail.
+// Otherwise, an informative message is logged, and the script sleeps for a few seconds before retrying.
+// You can adjust the retryCount and the shouldRetry logic based on your specific needs.
+// Additional Considerations:
+
+// Consider using exponential backoff for the sleep duration between retries to avoid overwhelming resources on consecutive failures.
+// This script retries on any Exception. You might want to refine the shouldRetry condition to target specific exceptions relevant to your stage.
