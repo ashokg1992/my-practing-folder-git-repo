@@ -35,3 +35,23 @@ try:
 
 except Exception as e:
   print(f"Error creating EC2 instance: {e}")
+
+
+# Explanation:
+
+# Import the boto3 library: This library provides Python interfaces for interacting with various AWS services, including EC2.
+# Configure AWS Credentials: Replace the placeholders with your actual AWS access key ID and secret access key.
+# Create an EC2 Client: This line creates a client object to interact with the EC2 service.
+# Define EC2 Instance Configuration:
+# image_id: Replace with the ID of the Amazon Machine Image (AMI) you want to use.
+# instance_type: Choose the appropriate instance type based on your resource requirements.
+# count: Specify the number of instances you want to create.
+# Create the EC2 Instance(s):
+# The run_instances method creates one or more EC2 instances based on the provided configuration.
+# Handle Errors: The code includes a try-except block to catch potential exceptions during instance creation and print an error message.
+# Print Instance Information: The code iterates through the response from run_instances and prints the instance ID and state for each created instance.
+# Important Notes:
+
+# Security: This code snippet focuses on creating an EC2 instance. Remember to configure security groups and other access rules appropriately for your instance.
+# Best Practices: Refer to the AWS documentation for best practices on creating and managing EC2 instances: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html
+# Cost: Launching EC2 instances incurs charges. Ensure you have a proper billing plan in place.
