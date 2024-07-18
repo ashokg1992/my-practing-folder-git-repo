@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9256b53c-c33e-4a92-8b79-dad59656ab1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../1.projects/1-mrdevops-sharedlib-project/jenkins_shared_lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.projects/1-mrdevops-sharedlib-project/mrdevops_java_app1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.projects/deekhsit-CICD_Java_gradle_application" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/1-python-myself-notes-git-repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/PythonInterviewQuestionsForDevOps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/ashok-devopsshack-Python-4-DevOps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/ashok-devshack-python-learning--notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/ec2-creation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/learn-python-raghu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/python-for-devops-by-abhi-made-by-ashok" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.python/rahul-helm-python-flask-rest-api-project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.tool-wise-projects/shell/1-shell-myself-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.tool-wise-projects/shell/1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.tool-wise-projects/shell/deekshit-shell-script-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.tool-wise-projects/shell/exit.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TF/1.terraform-self-notes-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TF/MRDEVOPS-ALL-TF-MODULES-terraformtesting-all-modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TF/mrdevops-tf/terraformtesting-all-modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TF/my-own-written-tf-files/ashok-tf-practice-GIT-REPOSITORY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ansible/1-ansible-myself-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ansible/ashok-rahulwagh-ansible-examples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws/1-aws-myself-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws/IAM/SHIVA-aws-iam--git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws/IAM/newfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws/cloudwatch/abhi/cloudwatch_custom_metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws/cloudwatch/abhi/default_metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws/cloudwatch/abhi/requirement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker/1-docker-self-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jenkins/1-jenkins-self-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jenkins/jenkins-Pipeline-Scripts-by-JAI-TTT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jenkins/jenkinsfile-retry-option" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../k8/1-k8-self-notes-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/1-python-myself-notes-git-repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/PythonInterviewQuestionsForDevOps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/ashok-devopsshack-Python-4-DevOps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/ashok-devshack-python-learning--notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/ec2-creation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/learn-python-raghu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/python-for-devops-by-abhi-made-by-ashok" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/rahul-helm-python-flask-rest-api-project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shell/1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shell/1.shell-myself-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shell/deekshit-shell-script-git-repo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shell/exit.sh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2jNDlIKLQPJkTuJDuUg0M3MGycB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9256b53c-c33e-4a92-8b79-dad59656ab1a" name="Changes" comment="" />
+      <created>1721218799688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721218799688</updated>
+      <workItem from="1721218802366" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
